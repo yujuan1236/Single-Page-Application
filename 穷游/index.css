@@ -1,0 +1,311 @@
+/*头部导航栏部分开始*/
+.head{
+    height: 400px;
+    background:url("img/himg.jpg") no-repeat center;
+    background-size:cover;
+}
+li{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+.head-top{
+    overflow: hidden;
+    position: relative;
+}
+.head-top img{
+    margin-top: 8px;
+    margin-left: 10px;
+}
+.head-top img{
+    float: left;
+}
+.head-top ul{
+    margin-top:25px;
+}
+.head-top li{
+    float: left;
+    margin-right: 15px;
+    height: 38px;
+    line-height: 38px;
+}
+.head-top li a{
+    font-size: 20px;
+    color:#FFFFFF ;
+    font-weight: bold;
+}
+.head-top-right{
+    width: 270px;
+    height: 80px;
+    float: right;
+    margin-right: 20px;
+}
+.dp-img{
+    width: 44px;
+    height: 19px;
+    background: url("img/dpimg.fw.png") no-repeat;
+    position: absolute;
+    top:22px;
+    left: 572px;
+}
+.head-top-right ul{
+    padding-left: 150px;
+}
+.head-foot{
+    height: 200px;
+    margin-top: 120px;
+}
+.head-foot-word{
+    width: 670px;
+    margin: 0 auto;
+    height: 200px;
+    position: relative;
+}
+.head-foot-word-ul li{
+    float: left;
+}
+.head-foot-word-ul a{
+    font: normal bold 18px "微软雅黑";
+    padding-left: 30px;
+    padding-right: 80px;
+    color: #FFFFFF;
+}
+.z-index{
+    width: 620px;
+    height: 70px;
+    margin-top: 45px;
+    position: absolute;
+    top: 0px;
+    overflow: hidden;
+    z-index: 999;
+    background :rgba(0,0,0,.5) ;
+}
+.head-foot-word input{
+    width: 506px;
+    height: 40px;
+    margin-top: 14px;
+    margin-left: 15px;
+    float: left;
+    color: #C6C6C6;
+    font-size:20px;
+    z-index: 1000;
+}
+.head-foot-word .sousuo{
+    width: 90px;
+    height: 40px;
+    color: #FFFFFF;
+    margin-left: -3px;
+    background-color: #27CA79;
+    float: left;
+    font-size: 18px;
+}
+.h-left{
+    width: 23px;
+    height: 42px;
+    background:url("img/l2_c2.png");
+    position: absolute;
+    top: -25px;
+    left: -320px;
+}
+.h-right{
+    width: 23px;
+    height: 42px;
+    background:url("img/r2_c2.png");
+    position: absolute;
+    top: -25px;
+    left: 920px;
+}
+.wether{
+    width: 44px;
+    height: 35px;
+    background:url("img/weather_c4.png");
+    position: absolute;
+    top: 290px;
+    left: 1265px;
+}
+.wenzi{
+    font-size: 18px;
+    font-weight: bold;
+    color: #fff;
+    display: inline-block;
+    position: absolute;
+    top: 350px;
+    left: 785px;
+}
+.swenzi{
+    width: 50px;
+    height: 15px;
+    background:url("img/yw_c2.png");
+    position: absolute;
+    top: 380px;
+    left: 1258px;
+}
+/*头部导航栏部分结束*/
+/*zworld部分开始*/
+.zworld{
+    height: 110px;
+    margin-top: 20px;
+}
+.zw-left{
+    background:url("img/zwl_c2.png");
+    width: 740px;
+    height: 110px;
+    margin-right:20px ;
+}
+.zw-right{
+    background: url("img/zwr_c4.png");
+    width: 400px;
+    height: 110px;
+}
+/*zworld部分结束*/
+/*猜你感兴趣部分开始*/
+.h1{
+    height: 115px;
+    text-align: center;
+    padding-top: 43px;
+    color: #636363;
+    font-size: 20px;
+    position: relative;
+}
+.change{
+    width: 63px;
+    height: 17px;
+    display: inline-block;
+    background: url("img/change-c2.png");
+    position: absolute;
+    top: 67px;
+    left: 0px;
+}
+/*猜你感兴趣部分结束*/
+/*城市景点部分开始*/
+.city{
+    height: 300px;
+}
+.city .c-tu{
+    height: 185px;
+}
+.tu1{
+    background:url("img/tu1.jpg");
+}
+.tu2{
+    background:url("img/tu2.jpg");
+}
+.tu3{
+    background:url("img/tu3.jpg");
+}
+.c-wz .p1{
+    margin-top: 14px;
+    font-size: 16px;
+    color: #323232;
+    font-weight: 900;
+    margin-left: 19px;
+}
+.c-wz .p2{
+    margin-top: 8px;
+    font-size: 16px;
+    color:#636363;
+    margin-left: 19px;
+}
+.c-wz .p3 {
+    margin-top: 25px;
+    font-size: 14px;
+    color: #636363;
+    margin-left: 19px;
+
+}
+.c-wz .p3 span{
+    font-size: 12px ;
+    color: #959595;
+}
+.c-wz .span1{
+margin-left: 80px;
+}
+.c-wz .span2{
+    margin-left: 65px;
+}
+.c-wz .span3{
+    margin-left: 77px;
+}
+.city-last{
+    margin: 0;
+    border-top: 2px solid #1EBA69;
+    height: 297px;
+    background-color: #F8F8F8;
+}
+.city-last  h3{
+    color: #323232;
+    text-align: center;
+    margin-top: 21px;
+    font-size: 20px;
+}
+.city-last .p1{
+    text-align: center;
+    margin-top: 24px;
+    font-size: 14px;
+    color: #959595;
+}
+.city-last input{
+    text-align: center;
+    margin-left: 18px;
+    margin-top: 32px;
+    height: 40px;
+    width: 235px;
+    color: white;
+    font-size: 16px;
+    background-color: #10B041;
+}
+.city-last .p2{
+    margin: 24px 0 0 19px;
+    font-size: 14px;
+    color: #959595;
+}
+.city-last .p2 a{
+    color: #10B041;
+}
+.city-last .p3{
+    color: #10B041;
+    height: 36px;
+    font-size: 14px;
+    margin: 24px 0 0 19px;
+}
+.city-last .p3 .i1{
+     background: url("img/jlt-fw.fw.png") no-repeat 0 0;
+ }
+.city-last .p3 .i2{
+    background: url("img/jlt-fw.fw.png") no-repeat -40px 0;
+}
+.city-last .p3 .i3{
+    background: url("img/jlt-fw.fw.png") no-repeat -80px 0;
+}
+.city2{
+    margin-top: 80px !important;
+}
+/*城市景点部分结束*/
+/*最世界部分开始*/
+.zsj{
+    height: 636px;
+    margin-top: 80px;
+    background:url("img/zsj_c2.png") repeat-x;
+    position: relative;
+}
+.zsjzyx{
+    width: 249px;
+    height: 55px;
+    background:url("img/zsjzyx_c2.png") no-repeat;
+    position: absolute;
+    top: 30px;
+    left: 460px;
+}
+.zsj-left{
+    background-color: palegreen;
+}
+.zsj-center{
+    background-color: red;
+}
+.zsj-right{
+    margin-right: 0px;
+    background-color: blue;
+    color: #fff;
+}
+/*最世界部分结束*/

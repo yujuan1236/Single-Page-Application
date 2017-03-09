@@ -1,0 +1,71 @@
+/*公用样式*/
+html,body,h1,h3,p,ul,li,input{
+    margin: 0;
+    padding: 0;
+}
+img,input {
+    border: none
+}
+ul{
+    list-style: none;
+}
+body{
+    font-size: 12px;
+    color: #000000;
+    background: #fff;
+}
+.clearfix:after{
+    content: "";
+    height: 0;
+    line-height: 0;
+    display: block;
+    visibility: hidden;
+    clear: both;
+}
+.clearfix{
+    zoom:1;
+}
+a{
+    text-decoration: none;
+    color: #000;
+}
+a:hover{
+    color: #27CA79 !important;
+}
+input{
+    outline: none;
+}
+.fl{
+    float: left;
+}
+.fr{
+    float: right;
+}
+textarea{
+    resize: none;
+}
+.banxin{
+    width: 1160px;
+    margin: 0 auto;
+}
+.ccm {
+    width: 272px;
+    height: 298px;
+    margin-right: 20px;
+    float: left;
+    border: 1px solid #ECECEC;
+}
+.jlimg{
+    display: inline-block;
+    margin-left: 5px;
+    width: 37px;
+    height: 36px;
+    vertical-align: middle;
+}
+.zsjwh{
+    width: 370px;
+    height: 345px;
+    margin-top: 119px;
+    float: left;
+    margin-right: 25px;
+}

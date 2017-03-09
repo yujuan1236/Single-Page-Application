@@ -1,0 +1,169 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>index</title>
+<style type="text/css">
+	body{ padding:0; margin:0; font-size:12px; font-family:"微软雅黑"; color:#333; background:url(img/body_bg.png) repeat-x;}
+	h1,h2,h3,ul,li,dl,dt,dd,input,p,img{ padding:0; margin:0; border:0; list-style:none; }
+	img{ display:block;}
+	a{ color:#333; text-decoration:none;}
+	a:hover{ text-decoration:underline;}
+	/*header*/
+	#header{ width:1104px; height:60px; margin:0 auto;}
+	h1{ width:97px; padding-top:16px; float:left;}
+	.nav{ width:650px; height:60px; padding-left:50px; float:left;}
+	.nav ul{ width:650px; height:60px; }
+	.nav li{ width:106px; height:60px; float:left; line-height:60px; text-align:center; font-size:16px; border-right:1px solid #E6E6E6;} 
+	.current{ background:#008CD6;border-left:1px solid #E6E6E6;}
+	.sy{ color:#FFF;}
+	.sy:hover{ text-decoration:none;}
+	.nav ul a{ display:block; width:106px; height:60px;}
+	.nav ul a:hover{ background:#008CD6;color:#FFF; text-decoration:none;}
+	#header .search{ float:right; padding:8px 2px 0 0;}
+	#header span{ display:inline-block; margin-left:14px;}
+	#header span .aa{ width:45px; height:45px; display:inline-block; background:url(img/search.png) no-repeat;}
+	#header span .aa:hover{ background:url(img/search_2.png) no-repeat; display:inline-block;}
+	#header span .ab{ width:45px; height:45px; display:inline-block; background:url(img/self.png)}
+	#header span .ab:hover{ background:url(img/self_2.png) no-repeat;}
+	/*banner*/
+	#banner{ width:1104px; height:959px; background:url(img/index_banner.png) no-repeat; margin:0 auto; position:relative; border-bottom:1px solid #E6E6E6;}
+	.banner_pic1{ position:absolute; left:0; bottom:20px;}
+	.banner_pic2{ position:absolute; left:368px; bottom:20px;}
+	.banner_pic3{ position:absolute; left:736px; bottom:20px;}
+	/*contentWrap*/
+	#contentWrap{ width:100%; height:509px; background:url(img/content_bg.png) repeat-x;}
+	.content{ width:1104px; height:509px; margin:0 auto; padding:40px 2px 0 2px;}
+	.contentL{ width:540px; height:390px; float:left; border-bottom:1px solid #E6E6E6;}
+	h2{ width:480px; height:50px; background:#008CD6 url(img/dongtai.png) no-repeat 21px center; line-height:50px; padding-left:60px; font-weight:normal; color:#FFF; font-size:18px;}
+	.contentL dl{ width:262px; height:300px; padding-top:20px; float:left;}
+	.contentL .dla{ float:right;}
+	.contentL dd{ width:262px; height:127px; padding-top:23px;}
+	.contentL dd p{ width:264px; height:19px; line-height:19px; margin-bottom:10px;}
+	.contentL dd a:hover{ color:#008CD6; text-decoration:none;}
+	.contentL dd .aa{ width:46px; height:19px; float:left; margin-right:4px;}
+	.contentR{ width:540px; height:391px; float:right; background:#F8F2F3;}
+	.contentR h2{ background:#DE2C3A url(img/xinlangweibo.png) no-repeat 21px center; position:relative;}
+	.zuo{ position:absolute; right:94px; top:14px;}
+	.you{ position:absolute; right:20px; top:14px;}
+	.contentR .dlb{ width:520px; height:74px; border-bottom:1px solid #E6E6E6; padding:20px 0 0 20px;}
+	.contentR .dlb dt{ width:54px; height:54px; float:left; margin-right:20px;}
+	.contentR .dlb dd{ width:446px; height:74px; float:left;}
+	h3{ width:112px; height:25px; float:left; padding-top:6px;}
+	.contentR .dlb dd a{ color:#DE2C3A; font-size:14px; font-weight:normal; float:left;}
+	.contentR .dlb dd a:hover{ color:#DB060C; text-decoration:none;}
+	.contentR .dlb dd span{ float:left; padding:2px 0 0 11px;}
+	.contentR .dlb dd p{ clear:both; width:335px; font-size:14px;}
+	.contentR .dlb dd input{ width:75px; height:25px; background:url(img/guanzhu.png) no-repeat; float:right; cursor:pointer;margin-right:20px;}
+	 .contentR .dlc{ width:500px; height:205px; padding:20px 20px 0; border:0;}
+	 .contentR .dlc dt{ width:500px; height:155px;}
+	 .contentR .dlc dd{ width:500px; height:56px; padding-top:14px; font-size:14px;}
+	 .contentR .dlc a:hover{ color:#DE2C3A; text-decoration:none;}
+	 /*footWrap*/
+	#footWrap{ width:100%; height:132px; background:#202223;}
+	.foot{ width:1104px; height:105px; padding:27px 2px 0 7px; margin:0 auto; position:relative;}
+	.foot_logo{ float:left; margin-right:34px;}
+	.foot ul{ float:left; padding-top:6px; color:#F1F1F1;}
+	.foot li{ float:left;}
+	.foot li span{ padding:0 10px; font-size:14px;}
+	.foot li a{ color:#F1F1F1; font-size:14px;}
+	.foot li a:hover{ text-decoration:none; color:#008CD6;}
+	.foot p{clear:both; zoom:1; padding:16px 0 0 135px; width:955px; color:#666; float:left;}
+	.foot p span{ float:left; width:435px;}
+	.foot p a{ color:#666;}
+	.foot p a:hover{ color:#008CD6; text-decoration:none;}
+	.foot .bc{ float:right; width:215px; height:27px;}
+	#footWrap .foot .bc a{ margin-left:8px;}
+	.foot .bc .xl{ width:27px; height:27px; float:right; background:url(img/xl.png) no-repeat;}
+	.foot .bc .xl:hover{background:url(img/xl_2.png) no-repeat;}
+	.foot .bc .tx{ width:27px; height:27px; float:right; background:url(img/tx.png) no-repeat;}
+	.foot .bc .tx:hover{background:url(img/tx_2.png) no-repeat;}
+	.foot .bc .rr{ width:27px; height:27px; float:right; background:url(img/rr.png) no-repeat;}
+	.foot .bc .rr:hover{background:url(img/rr_2.png) no-repeat;}
+	.foot .bc .wx{ width:27px; height:27px; float:right; background:url(img/wx.png) no-repeat;}
+	.foot .bc .wx:hover{background:url(img/wx_2.png) no-repeat;}
+	.foot .bc .fans{ color:#F1F1F1; float:left; padding-top:5px;}
+	.eg{ float:right; padding-top:10px;}
+	.jt{ position:absolute; right:5px; top:84px;}
+</style>
+</head>
+
+<body>
+<div id="header">
+	<h1><a href="#"><img src="img/logo.png"/></a></h1>
+    <div class="nav">
+    	<ul>
+        	<li class="current"><a href="#" class="sy">首页</a></li>
+            <li><a href="#">产品</a></li>
+            <li><a href="#">商城</a></li>
+            <li><a href="#">体验中心</a></li>
+            <li><a href="#">社区</a></li>
+            <li><a href="#">服务</a></li>
+        </ul>
+    </div>
+    <div class="search"><span><a href="#" class="aa"></a></span><span><a href="#" class="ab"></a></span></div>
+</div>
+<div id="banner">
+	<span class="banner_pic1"><img src="img/banner_pic1.png" width="368" height="240" /></span>
+    <span class="banner_pic2"><img src="img/banner_pic2.png" width="368" height="240" /></span>
+    <span class="banner_pic3"><img src="img/banner_pic3.png" width="368" height="240" /></span>
+</div>
+<div id="contentWrap">
+	<div class="content">
+    	<div class="contentL">
+        	<h2>动态</h2>
+          <dl>
+            	<dt><img src="img/pic1.png" width="262" height="170" /></dt>
+                <dd><p><a href="#" class="aa"><img src="img/news.png" width="46" height="19" /></a><a href="#">携手共创 极致乐章 vivo首届全球商业伙</a></p>
+                <p><a href="#" class="aa"><img src="img/news.png" width="46" height="19" /></a><a href="#">vivo冯磊微访谈透露新机信息：主打外</a></p>
+                <p><a href="#" class="aa"><img src="img/pingce.png" width="46" height="19" /></a><a href="#">vivo智能光显技术：阳光下也可以看清</a></p>
+                <p><a href="#" class="aa"><img src="img/news.png" width="46" height="19" /></a><a href="#">加速国际化进程 vivo召开缅甸品牌发布</a></p>
+                </dd>
+          </dl>
+            <dl class="dla">
+            	<dt><img src="img/pic2.png" width="262" height="170" /></dt>
+                <dd><p><a href="#" class="aa"><img src="img/news.png" width="46" height="19" /></a><a href="#">vivo 凭借极致音乐创意赢得朋友圈广告</a></p>
+                <p><a href="#" class="aa"><img src="img/news.png" width="46" height="19" /></a><a href="#">音乐情怀打动微信，vivo成微信朋友圈</a></p>
+                <p><a href="#" class="aa"><img src="img/pingce.png" width="46" height="19" /></a><a href="#">vivo Y29评测 4G双卡/双镜面机身是亮</a></p>
+                <p><a href="#" class="aa"><img src="img/pingce.png" width="46" height="19" /></a><a href="#">镜面机身+美食模式 vivo Y29上手评测</a></p>
+                </dd>
+            </dl>
+        </div>
+        <div class="contentR">
+        	<h2>新浪微博	
+                <img src="img/zuo.png" width="24" height="24" class="zuo" />
+                <img src="img/you.png" width="24" height="24" class="you"/>
+            </h2>
+            <dl class="dlb">
+            	<dt><a href="#"><img src="img/pic3.png" width="54" height="54" /></a></dt>
+                <dd><h3><a href="#">vivo智能手机</a><span><img src="img/v.png" width="16" height="13" /></span></h3>
+                <input type="button" />
+                <p>敢于追求极致，持续创造惊喜，因V有你，vivo非凡！</p>
+                </dd>
+            </dl>
+            <dl class="dlc">
+            	<dt><a href="#"><img src="img/pic4.png" width="500" height="155" /></a></dt>
+                <dd><a href="#">vivo手机最炫酷功能大集结，对哪个功能你最爱不释手？#乐无止境X5Pro#又将带来什么惊喜呢？“镜请期待”！</a></dd>
+            </dl>
+        </div>
+    </div>
+</div>
+<div id="footWrap">
+	<div class="foot">
+    	<span class="foot_logo"><img src="img/logo_2.png" width="102" height="25" /></span>
+        <ul>
+        	<li><a href="#">新闻中心</a><span>|</span></li>
+            <li><a href="#">校园招聘</a><span>|</span></li>
+            <li><a href="#">采购平台</a><span>|</span></li>
+            <li><a href="#">开发者平台</a><span>|</span></li>
+            <li><a href="#">手机寻回</a><span>|</span></li>
+            <li><a href="#">网站地图</a><span>|</span></li>
+            <li><a href="#">手机真伪查询</a><span>|</span></li>
+            <li><a href="#">免责声明</a></li>
+        </ul>
+        <span class="bc"><a href="#" class="wx"></a><a href="#" class="rr"></a><a href="#" class="tx"></a><a href="#" class="xl"></a><span class="fans">成为vivo粉丝</span></span>
+        <p><span>COPYRIGHT © 1996-2015vivo COMMUNICATION TECHNOLOGY CO.LTD. ALL RIGHTS RESERVED. <a href="#">粤ICP备05100288号</a></span><a href="#" class="eg">English</a><img src="img/jt.png" width="5" height="9"  class="jt"/></p>
+    </div>
+</div>
+</body>
+</html>

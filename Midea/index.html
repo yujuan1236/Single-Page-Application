@@ -1,0 +1,284 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>无标题文档</title>
+</head>
+<style type="text/css">
+	body{margin:0; padding:0; background:#F0F0F0; font:12px/1.5 "Lucida Grande",Arial,"微软雅黑","宋体"; color:#333;}
+	h1,h2,h3,p,img,ul,li,dt,dd,input{margin:0; padding:0; border:none; list-style:none; outline:none;}
+	a:link,a:visited{text-decoration:none; color:#333;}
+	a:hover{color:#0093D5;}
+	/*header*/
+	#header{height:70px; width:100%; background:#FFF; border-bottom:1px solid #E0E0E0;}
+	.nav{width:1200px; height:70px; margin:0 auto;}
+	.nav h1{float:left; padding:14px 55px 0 24px;}
+	.nav h1 a{display:block; width:120px; height:40px; background:url(img/icon.png) no-repeat 0 0;}
+	.top_c{float:left; margin-top:26px; font-family:"微软雅黑"; font-size:14px;}
+	.top_c a:link,.top_c a:visited{margin-right:60px; float:left; position:relative;}
+	.top_c a span{ width:7px; height:4px; background:url(img/top_select.png) no-repeat; position:absolute; right:-15px; top:10px;}
+/*	.top_c a span{width:7px; height:4px; background:url(img/icon.png) no-repeat -130px -20px; position:absolute; right:-15px; top:10px;}*/
+	
+	.top_r{height:16px; float:right; padding-top:27px;}
+	.top_r input{height:16px; float:left; cursor:pointer; margin-left:40px; background:url(img/icon.png) no-repeat -196px -20px;}
+	.search{width:16px;}
+	.top_r .weixin{width:20px; background-position:-160px 0;}
+	.top_r .login{width:16px; background-position:-270px -20px;}
+	.top_r span{float:left; padding-left:5px; cursor:pointer; height:16px; line-height:16px;}
+	/*banner*/
+	#banner{width:100%; height:400px; background:url(img/banner_bg.jpg) repeat-x;}
+	.b_wrap{width:1200px; height:400px; margin:0 auto; position:relative;}
+	.b_r{width:240px; height:400px; background:#FFF; position:absolute; right:28px; top:0;}
+	.b_r ul{}
+	.b_r li{height:80px; width:200px; margin:0 20px;border-bottom:1px dotted #E8E8E8; margin-top:20px;}
+	.b_r a{display:block; background:url(img/css_img.png) no-repeat 0 0; height:60px; width:200px;}
+	.b_r  .server_1{background-position:0 -60px;}
+	.b_r  .server_2{background-position:0 -120px;}
+	.b_r  .server_3{height:60px; width:200px; background:url(img/css_img.png) no-repeat 0 -180px;}
+	.b_r .li_4{height:60px; border:none;}
+	/*product*/
+	#product_Box{width:100%; height:148px; border-bottom:1px solid #E6E6E6;}
+	.product{width:1200px; height:148px; margin:0 auto;}
+	.product ul{margin:0 auto; width:1111px; text-align:center;}
+	.product li{float:left; margin:30px 88px 0 0;}
+	.product .li_r{margin-right:0;}
+	.product img{width:60px; height:60px; display:block;}
+	.product span{display:block; color:#666; padding-top:18px;}
+	/*hd*/
+	.hd{height:50px; width:1200px; margin:38px auto 0;}
+	.hd h2{font:400 28px/30px "微软雅黑";height:50px;}
+	.hd i{ width:5px; height:5px; background:url(img/icon.png) no-repeat -290px -11px; display:inline-block; position:relative;
+	top:-10px; margin:0 10px;_top:12px;}
+	/*content_wrap*/
+	.content_wrap{height:470px; width:1200px; margin:0 auto; position:relative;}
+	.content_wrap img{ height:100%; width:100%;}
+	.pro{display:block; position:absolute;}
+	.product_1{width:470px; height:470px;}
+	.product_2{width:230px; height:230px;}
+	.product_3{width:230px; height:470px;}
+	.product_4{width:470px; height:230px;}
+	/*1*/
+	.product_1_1{top:0;}
+	.product_1_2{left:480px;}
+	.product_1_3{left:720px;}
+	.product_1_4{left:480px; top:240px;}
+	.product_1_5{left:720px; top:240px;}
+	.product_1_6{left:960px;}
+	/*2*/
+	.product_2_1{top:0}
+	.product_2_2{left:240px;}
+	.product_2_3{left:480px;}
+	.product_2_4{top:240px;}
+	.product_2_5{left:480px; top:240px;}
+	.product_2_6{left:720px;}
+	/*3*/
+	.product_3_1{top:0;}
+	.product_3_2{top:240px;}
+	.product_3_3{left:240px;}
+	.product_3_4{left:720px;}
+	.product_3_5{left:720Px; top:240px;}
+	.product_3_6{left:960px; top:240px;}
+	.content_warpend{ height:530px;}
+	/*wrap_footer*/
+	#server_footer{width:100%;border-top:1px solid #E8E8E8; background:#FFF;}
+	.server_f{width:1200px; height:135px; margin:0 auto;}
+	.server_f li{float:left;padding:35px 50px 0;}
+	.server_f div{width:200px; height:60px; background:url(img/css_img.png) no-repeat 0 -240px;}
+	.server_f .server_6{background-position:0 -300px;}
+	.server_f .server_7{background-position:0 -360px;}
+	.server_f .server_8{background-position:0 -420px;}
+	/*footer*/
+	#footer{width:100%;background:#0093D5; font-size:12px;}
+	#footer h3{color:#FFF; font-size:12px;}
+	.foot_center{width:1200px; margin:0 auto;}
+	
+	.foot_t{ height:70px; border-bottom:1px solid #2EA4D9; cursor:pointer; position:relative;}
+	.col {float:left;width:140px;}
+	.foot_t h3{font-weight:400; padding:28px 0 22px 0;}
+	.foot_t span{height:5px; width:9px; position:absolute; top:32px; right:0; background:url(img/icon.png) no-repeat -150px -20px;}
+	
+	.foot_m{ height:30px; border-bottom:1px solid #2EA4D9; padding:20px 0; line-height:30px;}
+	.foot_m a:link,.foot_m a:visited{color:#FFF;}
+	.tit{font-weight:400; float:left; height:30px; margin-right:40px;}
+	.item{float:left; height:30px; color:#FFF;margin-right:40px;}
+	.item_tmall{width:116px;background: url(img/icon.png) no-repeat 0 -160px;}
+	.item_jd{width:91px;background: url(img/icon.png) no-repeat -120px -160px;}
+	.item_suning{width:90px;background: url(img/icon.png) no-repeat -215px -160px;}
+	.item_gome{width:116px;background: url(img/icon.png) no-repeat 0 -200px;}
+	.item_video{ padding:0 40px; height:30px; border-left:1px dotted #66BEE6; border-right:1px dotted #66BEE6; margin-right:0;}
+	.icon_video{width:17px; height:17px; background:url(img/icon.png) no-repeat -250px 0; float:left; margin:6px 5px 0 0;}
+	.item_video span{float:left;}
+	.item_act{padding-left:40px;margin:0;}
+	
+	.foot_info{height:40px; padding:30px 0 55px; color:#98D0E9}
+	.foot_info a:link,.foot_info a:visited{float:left; color:#98D0E9;}
+	.foot_info .icon_cx{padding-right:15px;}
+	.info_wrap{float:left;}
+	.info_wrap a{padding:0 8px; border-right:1px solid #98D0E9;}
+	.info_wrap .last{border:none;}
+	.info_wrap p{clear:left; padding-left:8px; padding-top:5px;}
+	.NationSel{float:right;}
+	.NationSel span{color:#FFF;padding-left:5px;}
+	
+</style>
+<body>
+<div id="header">
+	<div class="nav">
+    	<h1><a href="#"></a></h1>
+<!--        <ul>
+        	<li class="navSel"><a href="#">全部商品</a></li>
+            <li><a href="#">附近旗舰店</a></li>
+            <li><a href="#">美的社区</a></li>
+            <li><a href="#">服务支持</a></li>
+            <li><a href="#">线上购买</a></li>
+            <li><a href="#">优惠活动</a></li>
+        </ul>-->
+        <div class="top_c">
+        	<a href="#">全部商品<span></span></a>
+            <a href="#">附近旗舰店</a>
+            <a href="#">美的社区</a>
+            <a href="#">服务支持</a>
+            <a href="#">线上购买</a>
+            <a href="#">优惠活动</a>
+        </div>
+        <div class="top_r">
+        	<input type="button" class="search" />
+            <input type="button" class="weixin" />
+            <input type="button" class="login" id="lg" />
+            <label for="lg"><span>登录</span></label>
+        </div>
+    </div>
+</div>
+<div id="banner">
+	<div class="b_wrap">    
+    <a href="#"><img src="img/banner_1.jpg" /></a>
+    	<div class="b_r">
+        	<ul>
+            	<li><a href="#"></a></li>
+                <li><a class="server_1" href="#"></a></li>
+                <li><a class="server_2" href="#"></a></li>
+				<li class="li_4"><div class="server_3"></div></li>
+            </ul>
+        </div>      
+    </div>
+</div>
+<div id="product_Box">
+	<div class="product">
+    	<ul>
+        	<li><a href="#"><img src="img/pro_1.png" /></a><span>空调</span></li>
+            <li><a href="#"><img src="img/pro_2.png" /></a><span>冰箱</span></li>
+            <li><a href="#"><img src="img/pro_3.png" /></a><span>洗衣机</span></li>
+            <li><a href="#"><img src="img/pro_4.png" /></a><span>热水器</span></li>
+            <li><a href="#"><img src="img/pro_5.png" /></a><span>厨房大家电</span></li>
+            <li><a href="#"><img src="img/pro_6.png" /></a><span>厨房小家电</span></li>
+            <li><a href="#"><img src="img/pro_7.png" /></a><span>生活家电</span></li>
+            <li class="li_r"><a href="#"><img src="img/pro_8.png" /></a><span>商用电器/照明</span></li>
+        </ul>
+    </div>
+</div>
+<div class="hd">
+	<h2>空调<i></i>冰箱<i></i>洗衣机</h2>
+</div>
+<div class="content_wrap">
+    <a href="#" class="pro product_1 product_1_1"><img src="img/p1_1.jpg" /></a>
+    <a href="#" class="pro product_2 product_1_2"><img src="img/p1_2.png" /></a>
+    <a href="#" class="pro product_2 product_1_3"><img src="img/p1_3.jpg" /></a>
+    <a href="#" class="pro product_2 product_1_4"><img src="img/p1_4.jpg" /></a>
+    <a href="#" class="pro product_2 product_1_5"><img src="img/p1_5.jpg" /></a>
+    <a href="#" class="pro product_3 product_1_6"><img src="img/p1_6.jpg" /></a>
+</div>
+<div class="hd">
+	<h2>厨房家电</h2>
+</div>
+<div class="content_wrap">
+    <a href="#" class="pro product_2 product_2_1"><img src="img/p2_1.jpg" /></a>
+    <a href="#" class="pro product_2 product_2_2"><img src="img/p2_2.jpg" /></a>
+    <a href="#" class="pro product_2 product_2_3"><img src="img/p2_3.png" /></a>
+    <a href="#" class="pro product_4 product_2_4"><img src="img/p2_4.jpg" /></a>
+    <a href="#" class="pro product_2 product_2_5"><img src="img/p2_5.jpg" /></a>
+    <a href="#" class="pro product_1 product_2_6"><img src="img/p2_6.jpg" /></a>
+</div>
+<div class="hd">
+	<h2>生活家电</h2>
+</div>
+<div class="content_wrap content_warpend">
+    <a href="#" class="pro product_2 product_3_1"><img src="img/p3_1.png" /></a>
+    <a href="#" class="pro product_2 product_3_2"><img src="img/p3_2.jpg" /></a>
+    <a href="#" class="pro product_1 product_3_3"><img src="img/p3_3.jpg" /></a>
+    <a href="#" class="pro product_4 product_3_4"><img src="img/p3_4.jpg" /></a>
+    <a href="#" class="pro product_2 product_3_5"><img src="img/p3_5.jpg" /></a>
+    <a href="#" class="pro product_2 product_3_6"><img src="img/p3_6.jpg" /></a>
+</div>
+<div id="server_footer">
+	<div class="server_f">
+    	<ul>
+        	<li><div class="server_5"></div></li>
+            <li><div class="server_6"></div></li>
+            <li><div class="server_7"></div></li>
+            <li><div class="server_8"></div></li>
+        </ul>
+    </div>
+</div>
+<div id="footer">
+	<div class="foot_center">
+    	<div class="foot_t">
+            <div class="col">
+                <h3>新闻中心</h3>
+                <ul class="foot_link"></ul>
+            </div>
+            <div class="col">
+                <h3>关于美的</h3>
+                <ul class="foot_link"></ul>
+            </div>
+            <div class="col">
+                <h3>投资者关系</h3>
+                <ul class="foot_link"></ul>
+            </div>
+            <div class="col">
+                <h3>服务支持</h3>
+                <ul class="foot_link"></ul>
+            </div>
+            <div class="col">
+                <h3>网站信息</h3>
+                <ul class="foot_link"></ul>
+            </div>
+            <div class="col">
+                <h3>解决方案</h3>
+                <ul class="foot_link"></ul>
+            </div>
+            <div class="col">
+                <h3>友情链接</h3>
+                <ul class="foot_link"></ul>
+            </div>
+            <div class="col">
+                <h3>关键词</h3>
+                <ul class="foot_link"></ul>
+            </div>
+            <span></span>
+        </div>
+        <div class="foot_m">
+        	<h3 class="tit">其他购买平台：</h3>
+            <a href="#" class="item item_tmall"></a>
+            <a href="#" class="item item_jd"></a>
+			<a href="#" class="item item_suning"></a>
+			<a href="#" class="item item_gome"></a>
+            <a href="#" class="item item_video"><span class="icon_video"></span>视频专区</a>
+            <a href="#" class="item item_act">产品专题</a>    
+        </div>
+        <div class="foot_info">
+                <a href="#" class="icon_cx"><img src="img/icon_cx.png" /></a>
+            <div class="info_wrap">
+                <a href="#">关于我们</a>
+                <a href="#">联系我们</a>
+                <a href="#">服务条款</a>
+                <a href="#" class="last">隐私政策</a>
+                <p>Copyright © 1968-2015 美的集团股份有限公司 粤ICP备09215446号</p>
+        	</div>
+            <div class="NationSel">
+            	Select country/language<span>CN - 中文</span>
+            </div>
+        </div>     
+    </div>
+</div>
+</body>
+</html>
